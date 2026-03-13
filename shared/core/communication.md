@@ -34,6 +34,8 @@ Escalate clearly when:
 - validation is blocked
 - multiple risky interpretations are possible
 
+When escalation is required in an automated or headless context, use the structured escalation block defined in `shared/risk/approvals.md`.
+
 ## Avoid
 - Claiming completion without evidence
 - Hiding uncertainty

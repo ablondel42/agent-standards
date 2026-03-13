@@ -26,6 +26,19 @@ When approval is needed:
 4. Describe the smallest safe path forward.
 5. Wait for explicit confirmation before proceeding.
 
+## Escalation output format
+When escalation is required, stop and emit a structured block before any implementation:
+
+```text
+ESCALATION REQUIRED
+Trigger: [what rule or boundary was reached]
+Proposed change: [one sentence description]
+Risk: [why this needs approval]
+Awaiting: explicit approval before proceeding
+```
+
+Do not implement the change until this block is acknowledged.
+
 ## Safe defaults
 - Prefer preserving current behavior over making risky assumptions.
 - Prefer narrower changes over broad policy shifts.

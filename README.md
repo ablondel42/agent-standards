@@ -83,6 +83,7 @@ agent-standards/
 │   ├── role-guidelines.template.md
 │   ├── index.template.md
 │   └── editor-mapping/
+├── prompt-library/             # Reusable prompt examples and task briefs
 ├── setup/                      # Editor-specific installation guides
 └── meta/                       # Repo maintenance and taxonomy docs
 ```
@@ -146,6 +147,10 @@ The agent now has focused context for the specific task without loading irreleva
 - 🚧 **Backend** – Coming soon
 - 🚧 **DevOps** – Coming soon
 - 🚧 **Mobile** – Coming soon
+
+## prompt-library/
+
+`prompt-library/` contains reusable prompt examples and task briefs that reference the standards in this repo, such as `repo-readonly-comparison-prompt.md` [cite:32]. These files are examples and starting points rather than canonical rule files, so they may be adapted per project without changing the core standards in `shared/`, `roles/`, or `templates/` [cite:32].
 
 ## Templates
 

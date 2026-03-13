@@ -11,6 +11,9 @@ Do not optimize for speed if it reduces production quality.
 - Prefer the smallest safe implementation that solves the problem.
 - Reuse existing patterns before introducing new abstractions.
 - Do not add dependencies, change auth, weaken validation, reduce privacy protections, or alter security-sensitive behavior without explicit approval.
+- Never log secrets, credentials, tokens, or personal data.
+- Never swallow exceptions silently or add fallbacks with no diagnostic value.
+- Never weaken validation, auth, or security controls for convenience, simplicity, or speed.
 - Do not mark work complete while known errors, regressions, or failed checks remain.
 
 ## Required workflow
