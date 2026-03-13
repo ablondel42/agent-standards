@@ -29,7 +29,7 @@ Make changes in a way that is disciplined, reviewable, and production-safe witho
 
 ## Validation rules
 - Start with the smallest relevant validation.
-- Increase validation depth when risk increases.
+- Increase validation depth when risk increases, especially when task type, changed surface area, or safety sensitivity increases.
 - Do not claim success if meaningful checks failed or were skipped without disclosure.
 - If validation cannot be run, say so clearly and explain why.
 

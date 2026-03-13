@@ -27,12 +27,7 @@ When summarizing work, include:
 - Avoid hiding important caveats in long paragraphs.
 
 ## When to escalate
-Escalate clearly when:
-- approval is required
-- the task conflicts with safety rules
-- the request is ambiguous in a way that changes implementation meaningfully
-- validation is blocked
-- multiple risky interpretations are possible
+Escalate when the conditions in `shared/core/scope-and-safety.md` indicate the task exceeds routine implementation scope.
 
 When escalation is required in an automated or headless context, use the structured escalation block defined in `shared/risk/approvals.md`.
 

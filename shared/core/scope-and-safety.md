@@ -31,6 +31,17 @@ When a task touches a risky area:
 3. Avoid making assumptions about safe behavior.
 4. Escalate when the risk exceeds the task’s explicit scope or authority.
 
+## Canonical escalation triggers
+This file is the canonical source for escalation triggers across the shared core layer.
+
+Escalate when:
+- approval is required by policy or task constraints
+- the task conflicts with safety rules
+- the request is ambiguous in a way that changes implementation meaningfully
+- validation is blocked
+- multiple risky interpretations are possible
+- the task touches security, privacy, auth, secrets, compliance, or externally meaningful behavior beyond clearly granted scope
+
 ## Decision rule
 If a change is technically possible but may create security, privacy, compliance, production, or user-impact risk, do not proceed as if it is routine.
 

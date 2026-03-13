@@ -17,6 +17,10 @@ Prevent premature completion claims and ensure that work meets an appropriate qu
 - Security, privacy, and approval boundaries were preserved.
 - Error handling and logging remain useful, consistent, and safe where relevant.
 
+Interpretation notes:
+- “Relevant user-facing states” means the states materially affected by the task, not every theoretical UI state in the application.
+- “Relevant validation” means checks appropriate to the risk and surface area of the change, such as targeted tests, focused manual verification, or higher-depth validation for security-sensitive or externally meaningful changes.
+
 ## Not done if
 - The change only addresses the happy path when other relevant states were ignored.
 - Checks fail or meaningful validation is missing without explanation.

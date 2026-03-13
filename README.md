@@ -90,6 +90,20 @@ agent-standards/
 
 ## How to use this repo
 
+## Authority model
+
+This repository defines reusable project guidance for coding agents, but it does not replace higher-priority runtime instructions supplied by the host system, platform, or tool.
+
+In a real agent runtime, higher-level instruction layers such as system, developer, or direct user instructions may override repository guidance when the host platform defines them as higher priority.
+
+Within this repository, the canonical in-repo rule for retrieval and conflict resolution is defined in `shared/_index.md`.
+
+Use these authority boundaries when reading the repo:
+- `shared/` and populated `roles/<role>/` files define live runtime guidance.
+- `templates/` defines starter content for future generated roles.
+- `prompt-library/` contains examples and task briefs; it is not canonical policy.
+- Tooling such as `create-role.py` propagates templates but does not define runtime behavior by itself.
+
 ### For a coding agent (Claude, Cursor, etc.)
 
 **Entry sequence:**
