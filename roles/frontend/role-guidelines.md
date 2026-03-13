@@ -23,12 +23,12 @@ Do not optimize for speed if it reduces production quality.
 7. Escalate when the task touches security, privacy, auth, secrets, compliance, or external-impact configuration.
 
 ## Non-negotiable safety boundaries
-Never do any of the following without explicit approval:
-- Add, remove, or upgrade dependencies
-- Change authentication, authorization, roles, permissions, sessions, or security-sensitive flows
-- Change environment variables, secrets handling, CSP, headers, cookie behavior, proxying, analytics, telemetry destinations, consent flows, or deployment configuration
-- Expose sensitive data, log secrets, weaken validation, disable checks, or add unsafe HTML rendering
-- Delete, rename, or move externally significant files or public APIs
+See `shared/core/scope-and-safety.md` for the full list.
+The boundaries defined there apply to all tasks in this role without exception.
+
+Summary:
+- Never change auth, secrets, privacy-sensitive behavior, or security controls without explicit approval.
+- Never treat risky external behavior changes as routine work or hide them inside unrelated implementation.
 
 ## Retrieval strategy
 **Start here:**

@@ -118,10 +118,11 @@ The agent now has focused context for the specific task without loading irreleva
 4. Customize the role files to match your stack and conventions
 
 **Use case 2: Add a new role (e.g., backend)**
-1. Copy `templates/role-guidelines.template.md` to `roles/backend/role-guidelines.md`
-2. Copy `templates/index.template.md` to `roles/backend/_index.md`
-3. Create role-specific quality, architecture, and taskmap folders
-4. Reference shared guidance from `shared/` where applicable
+1. Use `create-role.py` to scaffold the new role from the canonical templates in `templates/`
+2. Or, if creating files manually, copy `templates/role-guidelines.template.md` to `roles/backend/role-guidelines.md`
+3. Copy `templates/index.template.md` to `roles/backend/_index.md`
+4. Create role-specific quality, architecture, and taskmap folders
+5. Reference shared guidance from `shared/` where applicable
 
 **Use case 3: Improve an existing rule**
 1. Find the file via the retrieval maps (e.g., `shared/risk/security-and-privacy.md`)
@@ -145,6 +146,11 @@ The agent now has focused context for the specific task without loading irreleva
 - 🚧 **Backend** – Coming soon
 - 🚧 **DevOps** – Coming soon
 - 🚧 **Mobile** – Coming soon
+
+## Templates
+
+The files in `templates/` are the canonical starter content for new roles.
+`create-role.py` reads these templates when scaffolding a new role, so edits to the template files change what all future generated roles receive by default.
 
 ## Contributing
 

@@ -69,6 +69,17 @@ Load from `shared/examples/` for concrete patterns and review help, not as alway
 - Prefer loading 1 to 3 precise shared files over loading entire directories.
 - Do not duplicate shared content into role files; reference it instead.
 
+## Instruction precedence
+When guidance files conflict, apply this order (highest wins):
+1. Explicit user instruction for this task
+2. `shared/risk/` files (safety and approval gates are non-negotiable)
+3. `shared/core/` files (execution and communication discipline)
+4. Role-specific quality and architecture files
+5. Taskmap files (execution patterns, not permission grants)
+6. Framework overlays (most specific, least authoritative on safety)
+
+A taskmap may refine how to do something, but may never override a safety boundary or approval gate.
+
 ## Adding new shared files
 When adding a new shared file:
 

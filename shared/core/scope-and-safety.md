@@ -13,6 +13,9 @@ Keep work within the requested scope while protecting security, privacy, correct
 - Separate optional improvements from required work.
 
 ## Safety rules
+This file is the canonical source for cross-role safety boundaries.
+Role-specific guidelines may summarize these rules, but they should reference this file rather than duplicate the full list.
+
 Do not make the following changes without explicit approval:
 - Dependency additions, removals, or upgrades
 - Authentication, authorization, permissions, or session behavior changes
