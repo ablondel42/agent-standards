@@ -45,7 +45,6 @@ The `_index.md` files guide you to the right combination of:
 - Frontend architecture files (`roles/frontend/architecture/`)
 - Task-specific execution maps (`roles/frontend/taskmaps/`)
 - Shared examples and anti-patterns (`shared/examples/`)
-- Framework overlays when needed (`roles/frontend/frameworks/`)
 
 ## Default completion bar
 A task is not done unless:

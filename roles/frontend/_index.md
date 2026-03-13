@@ -73,14 +73,6 @@ Use these files for implementation shape and code organization:
 - `roles/frontend/architecture/shared-primitives.md`
   Load when: the task affects shared UI primitives, utilities, or reusable hooks.
 
-## Load framework files
-Use framework overlays only when the task depends on framework-specific behavior:
-
-- `roles/frontend/frameworks/react.md`
-  Load when: the task depends on React-specific component, hook, rendering, or state conventions.
-
-Do not load framework overlays unless the task actually depends on them.
-
 ## Load taskmaps
 Use taskmaps only when the work benefits from a task-specific execution pattern:
 

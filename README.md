@@ -72,15 +72,13 @@ agent-standards/
 │       │   ├── data-fetching.md
 │       │   ├── file-organization.md
 │       │   └── shared-primitives.md
-│       ├── taskmaps/           # Task-specific execution patterns
-│       │   ├── bugfix.md
-│       │   ├── new-feature.md
-│       │   ├── refactor.md
-│       │   ├── ui-polish.md
-│       │   ├── test-writing.md
-│       │   └── perf-investigation.md
-│       └── frameworks/         # (WORK IN PROGRESS) Framework overlays (React, Vue, etc.)
-│           └── react.md
+│       └── taskmaps/           # Task-specific execution patterns
+│           ├── bugfix.md
+│           ├── new-feature.md
+│           ├── refactor.md
+│           ├── ui-polish.md
+│           ├── test-writing.md
+│           └── perf-investigation.md
 ├── templates/                  # Starter templates for new roles
 │   ├── role-guidelines.template.md
 │   ├── index.template.md

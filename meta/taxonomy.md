@@ -41,7 +41,7 @@ This includes good task briefs, good plans, review checklists, and forbidden pat
 Each role subtree should generally contain:
 - `role-guidelines.md`: the compact always-on entry point for the role
 - `_index.md`: the role-specific retrieval map
-- focused topical subdirectories such as `quality/`, `architecture/`, `frameworks/`, or `taskmaps/`
+- focused topical subdirectories such as `quality/`, `architecture/`, or `taskmaps/`
 
 Do not force every role to use the exact same subtree names if that harms clarity.
 The role structure should be consistent in spirit, not mechanically identical.
